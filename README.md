@@ -66,6 +66,7 @@ Node.js (optional, for smart contract demos)
 | 🐳 **Docker Support**           | Easily deploy the entire lab with Docker or Docker Compose.                              |
 
 ---
+```
 AI-Cybersecurity-lab-2.0/
 ├── ai_alert_scoring/        # AI/ML models for alert prioritization
 ├── suricata_alerts/         # Suricata rules, logs, configuration
@@ -76,6 +77,7 @@ AI-Cybersecurity-lab-2.0/
 ├── Dockerfile               # For app containerization
 ├── LICENSE                  # MIT License
 └── README.md                # Project documentation
+```
 
 ---
 📜 License
