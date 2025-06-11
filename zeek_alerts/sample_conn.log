@@ -1,1 +1,9 @@
 # Zeek conn.log sample
+
+#separator	\t
+#fields	ts	uid	id.orig_h	id.resp_h	proto	conn_state
+#types	time	string	addr	addr	enum	string
+1622470420.648679	C8zFhY3qKav8ZVY26	192.168.1.5	8.8.8.8	udp	SF
+1622470425.111552	C8zFhY3qLbe2dX0Hx	10.0.0.2	10.0.0.1	tcp	SH
+1622470430.000000	C8zFhY3qLXYe5qA09	172.16.0.10	172.16.0.1	tcp	REJ
+1622470435.987654	C8zFhY3qLZXBgh928	192.168.1.15	1.1.1.1	udp	SF
