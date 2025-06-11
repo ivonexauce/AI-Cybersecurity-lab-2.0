@@ -67,16 +67,34 @@ Node.js (optional, for smart contract demos)
 
 ---
 ```
-AI-Cybersecurity-lab-2.0/
-├── ai_alert_scoring/        # AI/ML models for alert prioritization
-├── suricata_alerts/         # Suricata rules, logs, configuration
-├── zeek_alerts/             # Zeek scripts, logs, analysis tools
-├── smart_contract_audit/    # Tools & scripts for auditing Ethereum contracts
-├── visualization/           # Dashboards and plots
-├── docker-compose.yml       # One-command deploy for full stack
-├── Dockerfile               # For app containerization
-├── LICENSE                  # MIT License
-└── README.md                # Project documentation
+AI-Cybersecurity-lab-2.0/ — AI-Powered Network and Smart Contract Threat Detection Lab
+├── ai_alert_scoring/              # AI/ML-based alert scoring
+│   ├── ai_model.py                # Trained ML model for threat prioritization
+│   └── feature_extractor.py       # Extracts features from parsed alerts
+│
+├── suricata_alerts/               # Suricata log parsing
+│   ├── parse_suricata.py          # Parses Suricata JSON logs
+│   └── sample_suricata.json       # Sample Suricata alert file
+│
+├── zeek_alerts/                   # Zeek log analysis
+│   ├── parse_zeek.py              # Parses Zeek conn.log data
+│   └── sample_conn.log            # Sample Zeek connection log
+│
+├── smart_contract_audit/          # Smart contract security tools
+│   ├── audit_with_mythril.py      # Audit script using Mythril
+│   ├── audit_with_slither.py      # Audit script using Slither
+│   └── vulnerable_contract.sol    # Sample vulnerable Solidity contract
+│
+├── visualization/                 # Visualization & dashboard
+│   ├── dashboard.py               # Python dashboard using matplotlib/seaborn
+│   └── alert_data.csv             # Sample data for visualizing alerts
+│
+├── Dockerfile                     # Builds the lab environment container
+├── docker-compose.yml             # Launches all services with one command
+├── requirements.txt               # Python package dependencies
+├── LICENSE                        # MIT License
+└── README.md                      # Project overview, setup guide, and usage
+
 ```
 
 ---
